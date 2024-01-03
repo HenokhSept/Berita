@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/cream"
+    android:padding="50px">
+
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/arow"
+        android:backgroundTint="@color/brown"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156"
+        tools:ignore="InvalidId,UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/text_judul"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="75dp"
+        tools:text="Masukkan Judul Berita hari ini"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_isi"
+        android:layout_width="380dp"
+        android:layout_height="312dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="157dp"
+        tools:text="Masukkan Berita hari ini"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="249dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:text="save"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="647dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
